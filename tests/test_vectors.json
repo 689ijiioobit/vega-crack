@@ -1,0 +1,98 @@
+[
+  {
+    "name": "password123 + PACE969",
+    "password": "password123",
+    "password_hex": "70617373776f7264313233",
+    "ssid": "PACE969",
+    "ssid_hex": "50414345393639",
+    "ap_mac": "4604ba734d4e",
+    "sta_mac": "89acf0e761f4",
+    "pmkid": "87808bb6f4c97a6c25d0f87ba6c0412a",
+    "hash_22000": "WPA*01*87808bb6f4c97a6c25d0f87ba6c0412a*4604ba734d4e*89acf0e761f4*50414345393639***",
+    "hash_16800": "87808bb6f4c97a6c25d0f87ba6c0412a*4604ba734d4e*89acf0e761f4*50414345393639"
+  },
+  {
+    "name": "hashcat! + hashcat!",
+    "password": "hashcat!",
+    "password_hex": "6861736863617421",
+    "ssid": "hashcat!",
+    "ssid_hex": "6861736863617421",
+    "ap_mac": "4604ba734d4e",
+    "sta_mac": "89acf0e761f4",
+    "pmkid": "f5f75200ae713e856b7f2172d6b79933",
+    "hash_22000": "WPA*01*f5f75200ae713e856b7f2172d6b79933*4604ba734d4e*89acf0e761f4*6861736863617421***",
+    "hash_16800": "f5f75200ae713e856b7f2172d6b79933*4604ba734d4e*89acf0e761f4*6861736863617421"
+  },
+  {
+    "name": "12345678 + TestNet",
+    "password": "12345678",
+    "password_hex": "3132333435363738",
+    "ssid": "TestNet",
+    "ssid_hex": "546573744e6574",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "8e629db802592047b4902c3516f86191",
+    "hash_22000": "WPA*01*8e629db802592047b4902c3516f86191*001122334455*aabbccddeeff*546573744e6574***",
+    "hash_16800": "8e629db802592047b4902c3516f86191*001122334455*aabbccddeeff*546573744e6574"
+  },
+  {
+    "name": "63 A's + MaxLenTest",
+    "password": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "password_hex": "414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141414141",
+    "ssid": "MaxLenTest",
+    "ssid_hex": "4d61784c656e54657374",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "5eca00efe58e7e2e3b48c63b333edae6",
+    "hash_22000": "WPA*01*5eca00efe58e7e2e3b48c63b333edae6*001122334455*aabbccddeeff*4d61784c656e54657374***",
+    "hash_16800": "5eca00efe58e7e2e3b48c63b333edae6*001122334455*aabbccddeeff*4d61784c656e54657374"
+  },
+  {
+    "name": "Latin-1 chars + Latin1",
+    "password": "\u00e9\u00e8\u00ea\u00eb\u00ec\u00ed\u00ee\u00ef",
+    "password_hex": "e9e8eaebecedeeef",
+    "ssid": "Latin1",
+    "ssid_hex": "4c6174696e31",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "8e8180b916ce6abbf4c5e45311930948",
+    "hash_22000": "WPA*01*8e8180b916ce6abbf4c5e45311930948*001122334455*aabbccddeeff*4c6174696e31***",
+    "hash_16800": "8e8180b916ce6abbf4c5e45311930948*001122334455*aabbccddeeff*4c6174696e31"
+  },
+  {
+    "name": "testpass1 + empty SSID",
+    "password": "testpass1",
+    "password_hex": "746573747061737331",
+    "ssid": "",
+    "ssid_hex": "",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "01fe34b376af8e35530c1bb28d194a42",
+    "hash_22000": "WPA*01*01fe34b376af8e35530c1bb28d194a42*001122334455*aabbccddeeff****",
+    "hash_16800": "01fe34b376af8e35530c1bb28d194a42*001122334455*aabbccddeeff*"
+  },
+  {
+    "name": "longssid1 + 32-byte SSID",
+    "password": "longssid1",
+    "password_hex": "6c6f6e677373696431",
+    "ssid": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "ssid_hex": "5858585858585858585858585858585858585858585858585858585858585858",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "ca760b97c1142e0e00e47bca345c7d73",
+    "hash_22000": "WPA*01*ca760b97c1142e0e00e47bca345c7d73*001122334455*aabbccddeeff*5858585858585858585858585858585858585858585858585858585858585858***",
+    "hash_16800": "ca760b97c1142e0e00e47bca345c7d73*001122334455*aabbccddeeff*5858585858585858585858585858585858585858585858585858585858585858"
+  },
+  {
+    "name": "P@ssw0rd!#$% + Special",
+    "password": "P@ssw0rd!#$%",
+    "password_hex": "504073737730726421232425",
+    "ssid": "Special",
+    "ssid_hex": "5370656369616c",
+    "ap_mac": "001122334455",
+    "sta_mac": "aabbccddeeff",
+    "pmkid": "783cce59f976b228a68c6b484282819e",
+    "hash_22000": "WPA*01*783cce59f976b228a68c6b484282819e*001122334455*aabbccddeeff*5370656369616c***",
+    "hash_16800": "783cce59f976b228a68c6b484282819e*001122334455*aabbccddeeff*5370656369616c"
+  }
+]

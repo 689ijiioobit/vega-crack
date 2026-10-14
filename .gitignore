@@ -1,0 +1,13 @@
+/target
+
+# AI assistant artifacts (local-only)
+context-snapshot.json
+.agentic-security/
+run_review.sh
+
+# Editor/OS noise
+*.bak
+*.asm
+*.asm_v2
+__pycache__/
+*.pyc
